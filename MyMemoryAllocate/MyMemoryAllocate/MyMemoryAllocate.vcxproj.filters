@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\Valkyrie">
+      <UniqueIdentifier>{48208c8f-a66f-47ab-a637-f26a16d537ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Valkyrie\Thread">
+      <UniqueIdentifier>{0bfe8779-ccbc-458c-811d-1ea328417652}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\Valkyrie\memory">
+      <UniqueIdentifier>{bd8946cb-433f-4e27-825b-1d8110592007}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Valkyrie\Utility.cpp">
+      <Filter>ソース ファイル\Valkyrie</Filter>
+    </ClCompile>
+    <ClCompile Include="vtestmain.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="v2main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="MainThreadMemory.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="StackMemoryTest.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="AloccatorVectorTest.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="C11allocatorttest.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CustomAllocatorMemo.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadBoostMemory.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Valkyrie\Utility.h">
+      <Filter>ソース ファイル\Valkyrie</Filter>
+    </ClInclude>
+    <ClInclude Include="Valkyrie\Thread\ValCThread.h">
+      <Filter>ソース ファイル\Valkyrie</Filter>
+    </ClInclude>
+    <ClInclude Include="vtestmain.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="Valkyrie\Memory\StackAllocator.h">
+      <Filter>ソース ファイル\Valkyrie\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Valkyrie\Memory\MemoryPool.h">
+      <Filter>ソース ファイル\Valkyrie\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Valkyrie\Memory\MemoryMaster.h">
+      <Filter>ソース ファイル\Valkyrie\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Valkyrie\Memory\TGLMemory.h">
+      <Filter>ソース ファイル\Valkyrie\memory</Filter>
+    </ClInclude>
+    <ClInclude Include="Valkyrie\Memory\BoundaryBlock.h">
+      <Filter>ソース ファイル\Valkyrie\memory</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
